@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '38xi%ol+hicrmk7wrs0mlhsu%0idgl+mt3-9*+$(fv^4=@y7d_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG =  False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://tusharproject.herokuapp.com/', 'tusharproject.herokuapp.com', '127.0.0.1:8000']
 
 
 # Application definition
